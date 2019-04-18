@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 2.8)
+project(cpps)
+add_subdirectory(libs/duktape)
+add_subdirectory(cmtest)
+add_subdirectory(mgtest)
+add_subdirectory(duktest)
+add_subdirectory(mcast)
+add_subdirectory(mbroad)
